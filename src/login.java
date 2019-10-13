@@ -121,11 +121,11 @@ public class login extends javax.swing.JFrame {
         main.add(jLabel3);
         jLabel3.setBounds(110, 200, 120, 30);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\sarve\\Desktop\\atharva1.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/atharva1.png"))); // NOI18N
         main.add(jLabel2);
         jLabel2.setBounds(260, 10, 150, 150);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\sarve\\Desktop\\White_full.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/White_full.png"))); // NOI18N
         main.add(jLabel1);
         jLabel1.setBounds(0, 0, 680, 490);
 
